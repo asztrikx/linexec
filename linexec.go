@@ -90,7 +90,7 @@ func Exec(buffer interface{}, outputLocation string) string {
 
 	//Prepare command
 	var cmd *exec.Cmd
-	cmd = exec.Command(terminal)
+	cmd = exec.Command(Terminal)
 	var stdin io.WriteCloser
 	var stdout io.ReadCloser
 	var err error
