@@ -8,7 +8,8 @@ import (
 	"time"
 )
 
-var terminal = "bash"
+//Terminal which will get the commands in stdin
+var Terminal = "bash"
 
 //OutputLocation is the default outputlocation if it is ""
 //outputLocation should be "" for no logs
