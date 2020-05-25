@@ -1,3 +1,3 @@
-module github.com/linexec
+module github.com/asztrikx/linexec
 
 go 1.14
